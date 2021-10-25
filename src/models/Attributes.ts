@@ -9,7 +9,7 @@ export class Attributes<T> {
     Object.assign(this.data, update);
   }
 
-  get getAll(): T {
+  getAll(): T {
     return this.data;
   }
 }
